@@ -1,4 +1,4 @@
-<div class="fixed w-full">
+<div class="sticky top-0 w-full">
     <nav class="flex flex-row justify-between px-8 py-4 bg-gray-900 text-gray-50 drop-shadow-md">
         <a 
             href="/"

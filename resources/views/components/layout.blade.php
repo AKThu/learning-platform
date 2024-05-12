@@ -11,9 +11,8 @@
     <div class="bg-gray-800 min-h-screen text-gray-50">
         <x-navbar/>
 
-        <x-hero-section />
-
-        <x-courses-section />
+        {{ $slot }}
+        
     </div>
 </body>
 </html>
