@@ -1,6 +1,5 @@
 <x-layout>
     <x-hero-section />
 
-    <x-courses-section />
+    <x-course.courses-section />
 </x-layout>
-    
