@@ -5,6 +5,6 @@
         Your browser does not support the video tag.
     </video>
 
-    {{-- <iframe width="560" height="315" src="{{ $url }}" frameborder="0" allowfullscreen></iframe> --}}
+    <iframe width="560" height="315" src="{{ $url }}" frameborder="0" allowfullscreen></iframe>
 
 </x-layout>
