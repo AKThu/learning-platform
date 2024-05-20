@@ -1,9 +1,8 @@
-<div class="sticky top-0 w-full">
+<div class="sticky top-0 w-full z-50">
     <nav class="flex flex-row justify-between px-8 py-4 bg-gray-900 text-gray-50 drop-shadow-md">
-        <a 
-            href="/"
-            class="text-2xl font-medium"
-        >
+        <a
+           href="/"
+           class="text-2xl font-medium">
             Unnamed Learn
         </a>
         <div>
@@ -11,17 +10,15 @@
                 <form action="logout" method="POST">
                     @csrf
                     <button
-                        type="submit"
-                        class=""
-                    >
+                            type="submit"
+                            class="">
                         Logout
                     </button>
                 </form>
             @else
                 <div class="space-x-4">
                     <a
-                        href="/login"
-                    >
+                       href="/login">
                         Login
                     </a>
                     <a href="/register">

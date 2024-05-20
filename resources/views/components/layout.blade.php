@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,15 @@
     @vite('resources/css/app.css')
     <title>Unnamed Learn</title>
 </head>
+
 <body>
     <div class="bg-gray-800 min-h-screen text-gray-50">
-        <x-navbar/>
+        <x-navbar />
 
         {{ $slot }}
-        
+
+        <x-footer />
     </div>
 </body>
+
 </html>

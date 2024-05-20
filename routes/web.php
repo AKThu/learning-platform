@@ -16,6 +16,8 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::get('/courses/{title}/{episode}', [VideoController::class, 'watch']);
+    Route::get('/courses/upload_page', [VideoController::class, 'upload_page']);
+    Route::post('/courses/insert_video', [VideoController::class, 'upload_video'])->name('upload.video');
 });
 
 require __DIR__ . '/auth.php';

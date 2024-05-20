@@ -1,10 +1,10 @@
 <x-layout>
 
     {{-- @dd($currentVideoInfo, $videos) --}}
-    <div class="flex flex-row mt-5 px-5 w-full">
+    <div class="flex flex-row mt-5 px-5 w-full min-h-screen">
         {{-- video display --}}
         <div class="mx-5 w-2/3 drop-shadow-md">
-            <video controls>
+            <video controls preload="metadata">
                 <source src="{{ asset('storage/' . $currentVideoInfo['path']) }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>

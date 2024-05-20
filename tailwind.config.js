@@ -14,6 +14,9 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            dropShadow: {
+                'xl-green': '0 0 10px rgba(134, 239, 172, 0.25)'
+            },
         },
     },
 
