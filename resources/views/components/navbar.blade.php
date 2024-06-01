@@ -16,12 +16,15 @@
                 <a href="">Blogs</a>
             </div>
         </div>
-        <div class="min-w-60 text-right mx-5">
+        <div x-data="{
+            open: false
+            }"
+        class="min-w-60 text-right mx-5">
             @auth
-                <div id="user-menu-toggle" class="cursor-pointer">
+                <div x-on:click="open = !open" class="cursor-pointer select-none">
                     <div>{{ Auth::user()->name }}</div>
                 </div>
-                <form action="logout" method="POST" id="user-menu" class="hidden absolute right-16 py-2 px-4 mt-3 rounded-md bg-gray-800 ">
+                <form x-show="open" action="logout" method="POST" class="absolute right-16 py-2 px-4 mt-3 rounded-md bg-gray-800 select-none">
                     @csrf
                     <button
                             type="submit"
