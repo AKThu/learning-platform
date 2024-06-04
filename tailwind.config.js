@@ -17,6 +17,9 @@ export default {
             dropShadow: {
                 'xl-green': '0 0 10px rgba(134, 239, 172, 0.25)'
             },
+            colors: {
+                'accent': '#1688C9',
+            }
         },
     },
 
