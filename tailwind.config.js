@@ -15,7 +15,8 @@ export default {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
             dropShadow: {
-                'xl-green': '0 0 10px rgba(134, 239, 172, 0.25)'
+                'xl-green': '0 0 10px rgba(134, 239, 172, 0.25)',
+                'xl-sky': '0 0 10px rgba(22, 136, 201, 0.5)',
             },
             colors: {
                 'accent': '#1688C9',

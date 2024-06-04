@@ -5,7 +5,7 @@
             <div class="text-3xl font-bold text-accent">
                 200+
             </div>
-            <div class="text-xl">
+            <div class="text-lg">
                 Students
             </div>
         </div>
@@ -16,7 +16,7 @@
             <div class="text-3xl font-bold text-accent">
                 550+
             </div>
-            <div class="text-xl">
+            <div class="text-lg">
                 Video Lessons
             </div>
         </div>
@@ -27,7 +27,7 @@
             <div class="text-3xl font-bold text-accent">
                 720+
             </div>
-            <div class="text-xl">
+            <div class="text-lg">
                 Blogs & Tricks
             </div>
         </div>

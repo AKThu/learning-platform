@@ -7,11 +7,7 @@
 
     <div class="flex flex-row flex-wrap gap-4 xl:gap-8 mt-10 justify-center">
         @foreach ($videos as $video)
-            <a href="{{ $video['url'] }}">
-                <div class="w-[400px] h-[500px] bg-indigo-900 text-center">
-                    {{ $video['name'] }}
-                </div>
-            </a>
+            <x-course.course-card :video="$video" />
         @endforeach
     </div>
 </div>
