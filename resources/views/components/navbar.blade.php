@@ -1,5 +1,5 @@
 <div class="sticky top-0 w-full z-50">
-    <nav class="flex flex-row justify-between px-8 py-4 bg-gray-900 text-gray-50 drop-shadow-md">
+    <nav class="flex flex-row justify-between px-8 py-4 bg-slate-950 text-gray-50 drop-shadow-md">
         <div class="text-2xl font-medium w-60 mx-5">
             <a href="/">
                 Code2Code

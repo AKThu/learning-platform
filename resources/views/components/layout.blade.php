@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <div class="bg-gray-800 min-h-screen text-gray-50">
+    <div class="bg-slate-900 min-h-screen text-gray-50">
         <x-navbar />
 
         {{ $slot }}

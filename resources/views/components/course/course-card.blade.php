@@ -1,7 +1,7 @@
 @props(["video"])
 
 <a href="{{ $video['url'] }}">
-    <div class="w-[400px] h-auto bg-gray-900 rounded-xl border border-accent p-5 hover:drop-shadow-xl-sky hover:relative hover:bottom-2 hover:left-2">
+    <div class="w-[400px] h-auto rounded-xl border bg-slate-950 hover:bg-slate-900 border-accent p-5 hover:drop-shadow-xl-sky hover:relative hover:bottom-2 hover:left-2">
         <img src="logo.jpg" alt="" class="w-full h-auto">
         <div class="text-2xl font-semibold py-3 min-h-20">
             {{ $video['name'] }}
