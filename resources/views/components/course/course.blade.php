@@ -3,8 +3,8 @@
     {{-- @dd($currentVideoInfo, $videos) --}}
     <div class="flex flex-row mt-5 px-5 w-full min-h-screen">
         {{-- video display --}}
-        <div class="mx-5 w-2/3 drop-shadow-md">
-            <video controls preload="metadata">
+        <div class="mx-5 w-2/3 h-auto drop-shadow-md">
+            <video controls preload="metadata" width="100%" height="auto">
                 <source src="{{ asset('storage/' . $currentVideoInfo['path']) }}" type="video/mp4">
                 Your browser does not support the video tag.
             </video>

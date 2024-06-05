@@ -13,6 +13,10 @@
     <link rel="icon" type="image/png" href="favicon.png">
     @vite('resources/css/app.css')
     <title>Unnamed Learn</title>
+
+    <style>
+        [x-cloak] { display: none }
+    </style>
 </head>
 
 <body>
@@ -21,6 +25,7 @@
 
         {{ $slot }}
 
+        
         <x-footer />
     </div>
 </body>

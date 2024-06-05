@@ -1,6 +1,6 @@
 @props(['videos'])
 
-<div class="min-h-screen">
+<div>
     <div class="text-center text-2xl">
         Courses
     </div>

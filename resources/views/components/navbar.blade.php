@@ -6,13 +6,13 @@
             </a>
         </div>
         <div class="flex flex-row gap-5">
-            <div>
+            <div class="hover:text-accent">
                 <a href="">Home</a>
             </div>
-            <div>
+            <div class="hover:text-accent">
                 <a href="">Courses</a>
             </div>
-            <div>
+            <div class="hover:text-accent">
                 <a href="">Blogs</a>
             </div>
         </div>
@@ -21,10 +21,10 @@
             }"
         class="min-w-60 text-right mx-5">
             @auth
-                <div x-on:click="open = !open" class="cursor-pointer select-none">
+                <div x-on:click="open = !open" class="cursor-pointer select-none hover:text-accent">
                     <div>{{ Auth::user()->name }}</div>
                 </div>
-                <form x-show="open" action="logout" method="POST" class="absolute right-16 py-2 px-4 mt-3 rounded-md bg-gray-800 select-none">
+                <form x-cloak x-show="open" x-transition action="logout" method="POST" class="absolute right-16 py-2 px-4 mt-3 rounded-md bg-gray-800 select-none">
                     @csrf
                     <button
                             type="submit"
